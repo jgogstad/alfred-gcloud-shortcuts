@@ -20,8 +20,16 @@
     "url": "https://console.cloud.google.com/artifacts?project={{.ProjectID}}"
   },
   {
+    "name": "Asset Inventory",
+    "url": "https://console.cloud.google.com/iam-admin/asset-inventory/dashboard?project={{.ProjectID}}"
+  },
+  {
     "name": "BigQuery",
     "url": "https://console.cloud.google.com/bigquery?project={{.ProjectID}}"
+  },
+  {
+    "name": "BigQuery BI Engine",
+    "url": "https://console.cloud.google.com/bigquery/admin/bi-engine?project={{.ProjectID}}"
   },
   {
     "name": "BigQuery Data Transfers",
@@ -60,6 +68,10 @@
     "url": "https://console.cloud.google.com/functions/list?project={{.ProjectID}}"
   },
   {
+    "name": "Cloud NAT",
+    "url": "https://console.cloud.google.com/net-services/nat/list?project={{.ProjectID}}"
+  },
+  {
     "name": "Cloud Run",
     "url": "https://console.cloud.google.com/run?project={{.ProjectID}}"
   },
@@ -96,6 +108,10 @@
     "url": "https://console.cloud.google.com/monitoring/dashboards?project={{.ProjectID}}"
   },
   {
+    "name": "Datastream",
+    "url": "https://console.cloud.google.com/datastream/streams?project={{.ProjectID}}"
+  },
+  {
     "name": "Dataflow",
     "url": "https://console.cloud.google.com/dataflow?project={{.ProjectID}}"
   },
@@ -110,6 +126,10 @@
   {
     "name": "Error Reporting",
     "url": "https://console.cloud.google.com/errors?project={{.ProjectID}}"
+  },
+  {
+    "name": "Event Arc",
+    "url": "https://console.cloud.google.com/eventarc/triggers?project={{.ProjectID}}"
   },
   {
     "name": "Firebase Authentication Users",
@@ -140,12 +160,20 @@
     "url": "https://console.cloud.google.com/firestore?project={{.ProjectID}}"
   },
   {
+    "name": "Firewall",
+    "url": "https://console.cloud.google.com/networking/firewalls/list?project={{.ProjectID}}"
+  },
+  {
     "name": "IAM & admin",
     "url": "https://console.cloud.google.com/iam-admin/iam/project?project={{.ProjectID}}"
   },
   {
     "name": "Instance Groups",
     "url": "https://console.cloud.google.com/compute/instanceGroups/list?project={{.ProjectID}}"
+  },
+  {
+    "name": "IP Addresses",
+    "url": "https://console.cloud.google.com/networking/addresses/list?project={{.ProjectID}}"
   },
   {
     "name": "KMS",
@@ -162,6 +190,22 @@
   {
     "name": "Logs",
     "url": "https://console.cloud.google.com/logs/viewer?project={{.ProjectID}}"
+  },
+  {
+    "name": "Log Analytics",
+    "url": "https://console.cloud.google.com/logs/analytics?project={{.ProjectID}}"
+  },
+  {
+    "name": "Log-based metrics",
+    "url": "https://console.cloud.google.com/logs/metrics?project={{.ProjectID}}"
+  },
+  {
+    "name": "Log Router",
+    "url": "https://console.cloud.google.com/logs/storage?project={{.ProjectID}}"
+  },
+  {
+    "name": "Log Storage",
+    "url": "https://console.cloud.google.com/logs/storage?project={{.ProjectID}}"
   },
   {
     "name": "Memorystore Redis",
@@ -184,12 +228,20 @@
     "url": "https://console.cloud.google.com/iam-admin/quotas?project={{.ProjectID}}"
   },
   {
+    "name": "Routes",
+    "url": "https://console.cloud.google.com/networking/routes/list?project={{.ProjectID}}"
+  },
+  {
     "name": "Secret Manager",
     "url": "https://console.cloud.google.com/security/secret-manager?project={{.ProjectID}}"
   },
   {
     "name": "Service Accounts",
     "url": "https://console.cloud.google.com/iam-admin/serviceaccounts?project={{.ProjectID}}"
+  },
+  {
+    "name": "Shared VPC",
+    "url": "https://console.cloud.google.com/networking/xpn?project={{.ProjectID}}"
   },
   {
     "name": "Spanner",
@@ -232,11 +284,23 @@
     "url": "https://console.cloud.google.com/networking/networks/list?project={{.ProjectID}}"
   },
   {
+    "name": "VPC Network Peering",
+    "url": "https://console.cloud.google.com/networking/peering/list?project={{.ProjectID}}"
+  },
+  {
     "name": "Workflows",
     "url": "https://console.cloud.google.com/workflows?project={{.ProjectID}}"
   },
   {
+    "name": "Workload Identity Federation",
+    "url": "https://console.cloud.google.com/iam-admin/workload-identity-pools?project={{.ProjectID}}"
+  },
+  {
     "name": "Cloud Deploy",
     "url": "https://console.cloud.google.com/deploy/delivery-pipelines?project={{.ProjectID}}"
+  },
+  {
+    "name": "Recommendations",
+    "url": "https://console.cloud.google.com/home/recommendations?project={{.ProjectID}}"
   }
 ]
