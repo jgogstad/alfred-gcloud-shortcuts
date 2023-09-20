@@ -302,5 +302,9 @@
   {
     "name": "Recommendations",
     "url": "https://console.cloud.google.com/home/recommendations?project={{.ProjectID}}"
+  },
+  {
+    "name": "APIs & Services",
+    "url": "https://console.cloud.google.com/apis/dashboard?project={{.ProjectID}}"
   }
 ]
