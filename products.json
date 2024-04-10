@@ -306,5 +306,49 @@
   {
     "name": "APIs & Services",
     "url": "https://console.cloud.google.com/apis/dashboard?project={{.ProjectID}}"
+  },
+  {
+    "name": "VPN",
+    "url": "https://console.cloud.google.com/hybrid/vpn/list?referrer=search&project={{.ProjectID}}"
+  },
+  {
+    "name": "Interconnect",
+    "url": "https://console.cloud.google.com/hybrid/interconnects/list?referrer=search&project={{.ProjectID}}"
+  },
+  {
+    "name": "Cloud Routers",
+    "url": "https://console.cloud.google.com/hybrid/routers/list?project={{.ProjectID}}"
+  },
+  {
+    "name": "Network Connectivity Center",
+    "url": "https://console.cloud.google.com/hybrid/hubs/list?project={{.ProjectID}}"
+  },
+  {
+    "name": "Alerting",
+    "url": "https://console.cloud.google.com/monitoring/alerting?project={{.ProjectID}}"
+  },
+  {
+    "name": "Connectivity Tests",
+    "url": "https://console.cloud.google.com/net-intelligence/connectivity/tests/list?project={{.ProjectID}}"
+  },
+  {
+    "name": "Dataplex",
+    "url": "https://console.cloud.google.com/dataplex/search?project={{.ProjectID}}"
+  },
+  {
+    "name": "Security Command Center (org)",
+    "url": "https://console.cloud.google.com/security/command-center/overview?organizationId=251623096515"
+  },
+  {
+    "name": "Security Command Center",
+    "url": "https://console.cloud.google.com/security/command-center/overview?project={{.ProjectID}}"
+  },
+  {
+    "name": "Security Command Center",
+    "url": "https://console.cloud.google.com/monitoring/alerting/incidents?project={{.ProjectID}}"
+  },
+  {
+    "name": "Roles",
+    "url": "https://console.cloud.google.com/iam-admin/roles?project={{.ProjectID}}"
   }
 ]
